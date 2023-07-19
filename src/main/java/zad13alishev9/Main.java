@@ -1,6 +1,6 @@
 package zad13alishev9;
 
-public class Break_Continue {
+public class Main {
     public static void main(String[] args) {
         int i = 0;
         while (true) {

@@ -1,6 +1,6 @@
 package zad13alishev6;
 
-public class If {
+public class Main {
     public static void main(String[] args) {
         int x = 5;
         if (x < 10) {

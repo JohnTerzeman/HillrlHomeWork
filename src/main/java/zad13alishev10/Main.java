@@ -2,7 +2,7 @@ package zad13alishev10;
 
 import java.util.Scanner;
 
-public class Swich {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("введите возраст");
