@@ -7,11 +7,11 @@ public class Main {
             int dividend = 10;
             int divisor = 0;
             if (divisor == 0) {
-                throw new ArithmeticException("Деление на ноль");
+                throw new MyException("Деление на ноль");
             }
             int result = dividend / divisor;
             System.out.println("Результат: " + result);
-        } catch (ArithmeticException e) {
+        } catch (MyException e) {
             System.out.println("Ошибка: " + e.getMessage());
         }
     }
