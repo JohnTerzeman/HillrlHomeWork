@@ -7,9 +7,9 @@ public class Main {
 
     public static void Exception() {
         try (Resource resource = new Resource()) {
-            throw new Exception("Exception found in try block");
+            throw new Exception("Исключение в блоке try");
         } catch (Exception e) {
-            throw new ArithmeticException("Exception found in catch block");
+            throw new ArithmeticException("Исключение в блоке catch");
         }
     }
 }
@@ -17,6 +17,6 @@ public class Main {
 class Resource implements AutoCloseable {
     @Override
     public void close() throws Exception {
-        throw new ArithmeticException("Exception found in try with resources");
+        throw new ArithmeticException("Исключение в блоке try с ресурсами");
     }
 }
