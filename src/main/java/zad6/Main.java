@@ -2,10 +2,10 @@ package zad6;
 
 public class Main {
     public static void main(String[] args) {
-        MyException();
+        test();
     }
 
-    public static void MyException() {
+    public static void test() {
         try (Resource resource = new Resource()) {
             throw new Exception("Исключение в блоке try");
         } catch (Exception e) {
